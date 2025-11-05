@@ -1,4 +1,4 @@
-a=list(input("enter the list:"))
+a= list(map(int, input("Enter numbers separated by space: ").split()))
 while(1):
     print("the menu")
     print("1.append an element into the list:")
@@ -24,8 +24,8 @@ while(1):
     
     elif(ch==3):
         print("3.append a list to a given list:")
-        list=list(input("enter the list you want to append:"))
-        a.extend(list)
+        list1=list(map(int, input("Enter numbers separated by space: ").split()))
+        a.extend(list1)
     elif(ch==4):
         print("4.modify an existing element into the list:")
         index=int(input("enter the index of the element you want to update:"))
@@ -33,7 +33,7 @@ while(1):
         a[index]=value
     elif(ch==5):
         print("5.delete an existing element from the list:")
-        element=(input("enter the element you want to delete:"))
+        element=int(input("enter the element you want to delete:"))
         a.remove(element)
     elif(ch==6):
         print("6.delete an existing element from it's position:")
@@ -47,15 +47,7 @@ while(1):
         break
     else:
         print("Invalid choice! Please try again.")
+    print(a)        
 
+      
 
-
-
-        break
-    
-    
-
-
-
-
- 
