@@ -9,22 +9,22 @@ while 1:
     print("4. Maximum element")
     print("5. Sum of elements")
     print("6. Exit")
-    choice = int(input("Enter your choice: "))
-    if choice == 1:
+    ch = int(input("Enter your choice: "))
+    if ch == 1:
         print("Length of tuple1:", len(tuple1))
         print("Length of tuple2:", len(tuple2))
-    elif choice == 2:
+    elif ch == 2:
         print("Concatenation of both tuples:", tuple1 + tuple2)
-    elif choice == 3:
+    elif ch == 3:
         print("Minimum element of tuple 1:", min(tuple1))
         print("Minimum  of tuple 2:",min(tuple2))        
-    elif choice == 4:
+    elif ch == 4:
         print("Maximum element of tuple 1:", max(tuple1))
         print("Maximum element of tuple2:",max(tuple2))        
-    elif choice == 5:
+    elif ch == 5:
         print("Sum  of tuple 1 :", sum(tuple1))
         print("sum of tuple 2 :",sum(tuple2))       
-    elif choice == 6:
+    elif ch == 6:
         print("Exiting program...")
         break
     else:
