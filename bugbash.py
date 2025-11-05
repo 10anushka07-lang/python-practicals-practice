@@ -52,8 +52,8 @@ def factorial(n):
     else:
         return n * factorial(n - 1)
 
-print(factorial(5))
-print(factorial(8))
+print("factorial of 5:",factorial(5))
+print("factorial of 8:",factorial(8))
 
 
 

@@ -4,7 +4,7 @@ months = {
     "November": 30,
     "December": 31
 }
-month_name=(input("enter a month name")).capitalize
+month_name=(input("enter a month name:"))
 if (month_name in months):
     print(month_name,months[month_name])
 print("list in alphabetical order")    
