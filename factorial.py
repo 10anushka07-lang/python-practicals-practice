@@ -1,0 +1,6 @@
+n=int(input("enter a no. whose factorial you want to calculate:"))
+def factorial(n):
+    if n==0:
+        return 1
+    return n*factorial(n-1)
+print(factorial(n))
