@@ -1,5 +1,7 @@
 dict1={"Argentina": "Messi","Portugal":"Ronaldo","Croatia":"Modric","Brazil":"Neymar"}
 
+
+
 while True:
     print("---MENU---")
     print("1. Items")
